@@ -16,7 +16,7 @@ The documentation for [Libre Computer] boards can be found here.
 
     1. the quality of which _can_ be questionable;
        you need to figure out which sources are credible;
-       question everything that don't sound right 😏
+       question everything that don't sound right :smirk:
 
 ??? question ""What is your affiliation to Libre Computer?""
 
