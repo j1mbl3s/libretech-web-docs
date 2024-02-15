@@ -17,8 +17,12 @@ nav:
     - Software:
       - software/index.md
 
-    - Guides:
+    - User Guides:
       - guides/index.md
+      - Getting Started: guides/getting-started.md
+
+      - Operating System Setup:
+        - guides/setup/index.md
 
   - Community: https://hub.libre.computer/
   - Home: https://libre.computer/
