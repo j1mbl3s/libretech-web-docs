@@ -4,12 +4,12 @@ site_url: https://j1mbl3s.github.io/libretech-web-docs
 repo_url: https://github.com/j1mbl3s/libretech-web-docs
 edit_uri: edit/main/docs/
 site_description: Documentation for Libre Computer SBCs
-copyright: © 2024.&emsp;A <a href="https://github.com/j1mbl3s">j1mbl3s</a> production.
+copyright: © 2024.<span style="width:1em;display:inline-block;"></span>A <a href="https://github.com/j1mbl3s">j1mbl3s</a> production.
 
 nav:
   - Documentation:
     - index.md
-  
+
   - Community: https://hub.libre.computer/
   - Home: https://libre.computer/
 
@@ -22,6 +22,8 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - toc:
