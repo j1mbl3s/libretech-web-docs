@@ -70,8 +70,12 @@ from a microSD card or eMMC module. (1)
         especially when attaching additional devices powered by the board
         (like USBs).
 
-        You can estimate the required electrical current with
-        [Joule's law]: $I = P / V$
+        You can estimate the required [electric current]
+        with [Joule's law]:
+
+        $$
+        I = \frac{P}{V}
+        $$
 
 * an HDMI cable and monitor (5)
 
