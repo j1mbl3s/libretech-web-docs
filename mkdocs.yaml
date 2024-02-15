@@ -1,0 +1,67 @@
+---
+site_name: Libre Computer Documentation
+site_url: https://j1mbl3s.github.io/libretech-web-docs
+repo_url: https://github.com/j1mbl3s/libretech-web-docs
+edit_uri: edit/main/docs/
+site_description: Documentation for Libre Computer SBCs
+copyright: © 2024.&emsp;A <a href="https://github.com/j1mbl3s">j1mbl3s</a> production.
+
+nav:
+  - Documentation:
+    - index.md
+  
+  - Community: https://hub.libre.computer/
+  - Home: https://libre.computer/
+
+plugins:
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+theme:
+  name: material
+  logo: https://libre.computer/images/navLogo.webp
+  favicon: https://libre.computer/favicon.ico
+  language: en
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.indexes
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra:
+  homepage: https://libre.computer/
