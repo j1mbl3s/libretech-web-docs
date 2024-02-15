@@ -15,7 +15,7 @@ inputs:
     default: requirements.txt
   strict:
     description: Boolean indicating if strict-mode flag should be applied to build
-    default: false
+    default: "false"
 
 runs:
   using: composite
@@ -27,7 +27,9 @@ runs:
         cache: pip
 
     - name: Install Python dependencies
+      shell: sh
       run: pip install -r ${{ inputs.requirements-file }}
 
     - name: Build MkDocs site
-      run: mkdocs build${{ inputs.strict && " -s" || "" }}
+      shell: sh
+      run: mkdocs build${{ inputs.strict && ' -s' || '' }}

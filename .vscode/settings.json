@@ -1,7 +1,8 @@
 {
   "yaml.schemas": {
     "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yaml",
-    "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yaml"
+    "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yaml",
+    "https://json.schemastore.org/github-action.json": ".github/actions/*/action.yaml"
   },
   "yaml.customTags": [ 
     "!ENV scalar",
