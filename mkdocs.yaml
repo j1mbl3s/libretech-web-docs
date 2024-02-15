@@ -10,6 +10,15 @@ nav:
   - Documentation:
     - index.md
 
+    - Hardware:
+      - hardware/index.md
+    
+    - Software:
+      - software/index.md
+
+    - Guides:
+      - guides/index.md
+
   - Community: https://hub.libre.computer/
   - Home: https://libre.computer/
 
@@ -38,6 +47,7 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.indexes
+    - navigation.footer
     - navigation.tabs
     - search.highlight
     - search.share
