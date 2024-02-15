@@ -7,26 +7,6 @@ edit_uri: edit/main/docs/
 site_description: Documentation for Libre Computer SBCs
 copyright: © 2024.<span style="width:1em;display:inline-block;"></span>A <a href="https://github.com/j1mbl3s">j1mbl3s</a> production.
 
-nav:
-  - Documentation:
-    - index.md
-
-    - Hardware:
-      - hardware/index.md
-    
-    - Software:
-      - software/index.md
-
-    - User Guides:
-      - guides/index.md
-      - Getting Started: guides/getting-started.md
-
-      - Operating System Setup:
-        - guides/setup/index.md
-
-  - Community: https://hub.libre.computer/
-  - Home: https://libre.computer/
-
 plugins:
   - git-authors
   - git-revision-date-localized:
@@ -35,10 +15,14 @@ plugins:
   - search
 
 markdown_extensions:
+  - abbr
   - admonition
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.snippets:
+      auto_append:
+        - includes/references.md
   - pymdownx.superfences
   - toc:
       permalink: true
@@ -48,20 +32,8 @@ theme:
   logo: https://libre.computer/images/navLogo.webp
   favicon: https://libre.computer/favicon.ico
   language: en
-
-  features:
-    - content.action.edit
-    - content.action.view
-    - navigation.indexes
-    - navigation.footer
-    - navigation.tabs
-    - search.highlight
-    - search.share
-    - search.suggest
-
   icon:
     repo: fontawesome/brands/github
-
   palette:
 
     - media: "(prefers-color-scheme)"
@@ -85,5 +57,39 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.indexes
+    - navigation.footer
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+
 extra:
   homepage: https://libre.computer/
+
+nav:
+  - Documentation:
+    - index.md
+
+    - Hardware:
+      - hardware/index.md
+
+    - Software:
+      - software/index.md
+
+    - User Guides:
+      - guides/index.md
+      - Getting Started: guides/getting-started.md
+
+      - Operating System Setup:
+        - guides/setup/index.md
+
+  - Community: https://hub.libre.computer/
+  - Home: https://libre.computer/
+
+watch:
+  - includes

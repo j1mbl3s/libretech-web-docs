@@ -2,15 +2,15 @@
 
 <div class="annotate" markdown>
 
-This document is designed to help someone boot a Libre Computer board
-into an officially supported GNU/Linux distribution image of their choice
+This document is designed to help someone
+boot a [Libre Computer] board
+into an officially supported [GNU/Linux] distribution image of their choice
 from a microSD card or eMMC module. (1)
 
 ???+ info "Advanced Boot Options"
 
     For more advanced boot options, see the
-    [libretech-flash-tool](https://github.com/libre-computer-project/libretech-flash-tool)
-    repository.
+    [libretech-flash-tool repository].
 
 </div>
 
@@ -59,8 +59,7 @@ from a microSD card or eMMC module. (1)
 
         Libre Computer boards are specced for 5V input
         and most use 5W under full load
-        ([AML-1311D-CC](https://libre.computer/products/aml-a311d-cc/)
-        is 10W).
+        ([AML-A311D-CC] is 10W).
 
         A +5% voltage should be within tolerance.
     
@@ -117,14 +116,12 @@ and decompress it.
 
 There are many GNU/Linux distributions images
 to choose from at the
-[Libre Computer](https://libre.computer/) site.
+[Libre Computer Products page][Libre Computer Products].
 For a complete listing of your board's officially support operating systems:
 
-1. go to `Products`
+1. click on your board
 
-2. click on your board
-
-3. click the `Downloads` tab
+2. click the `Downloads` tab
 
 Each download page should have instructions
 to select a compatible image for your board.
@@ -140,31 +137,29 @@ if one has been made available.
 
 <div class="annotate" markdown>
 
-Using a tool like [Rufus](https://rufus.ie/) (1) or `dd` (2),
-copy the contents of the image (3) onto the microSD card.
+Using a tool like [Rufus] or [`dd`][dd],
+copy the contents of the image (1) onto the microSD card.
 
 When the process is complete,
-the card should contain 2 partitions: (4)
+the card should contain 2 partitions: (2)
 
 1. a boot partition
 
 2. a root filesystem partition
 
+??? tip
+
+    At this point,
+    you could make modifications
+    to the configuration files for
+    the bootloader and OS
+    on the microSD card.
+
 </div>
 
-1. Windows, bootable USB flashing tool
+1. the decompressed `*.img` file
 
-2. GNU, **d**isk **d**uplicator, **d**ata **d**ump, (1)
-   {.annotate}
-
-    1.  !!! danger
-            
-            **d**ata **d**estroyer -
-            use responsibly
-
-3. the decompressed `*.img` file
-
-4. images created for
+2. images created for
    boards with a firmware bootloader
    may only have a root partition
 

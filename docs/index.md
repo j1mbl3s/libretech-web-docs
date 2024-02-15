@@ -1,6 +1,6 @@
 # Documentation
 
-The documentation for Libre Computer boards can be found here.
+The documentation for [Libre Computer] boards can be found here.
 
 !!! warning "Disclaimer"
 
@@ -29,7 +29,7 @@ The documentation for Libre Computer boards can be found here.
     After reading online discussions and reviews,
     I thought that people would appreciate having
     a more direct and user-friendly option to the
-    [Community](https://hub.libre.computer/)
+    [Community Hub][Libre Computer Community]
     site as documentation.
 
     Creating this site was a result of wanting to
@@ -37,5 +37,5 @@ The documentation for Libre Computer boards can be found here.
     document my personal journey with my boards,
     and try out a different tool for generating static sites.
 
-    I welcome you to contribute on
-    [GitHub](https://github.com/j1mbl3s/libretech-web-docs).
+    I welcome you to contribute
+    [on GitHub][libretech-web-docs repository].
