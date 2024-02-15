@@ -11,30 +11,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   build:
     name: Build
     runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Build MkDocs site
+        uses: ./.github/actions/build.yaml
         with:
-          python-version: "3.12"
-          cache: pip
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
-      - name: Create artifact
-        run: mkdocs build -s
+          strict: true
   
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3

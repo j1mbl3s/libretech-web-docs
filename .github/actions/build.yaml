@@ -1,0 +1,33 @@
+---
+name: Build MkDocs site
+description: |-
+  Composite actions used to build a MkDocs site.
+  Assumes the repository has already been checked out.
+
+inputs:
+  python-version:
+    description: Version of Python for setup
+    required: true
+    default: "3.12"
+  requirements-file:
+    description: Path of the requirements file for pip install
+    required: true
+    default: requirements.txt
+  strict:
+    description: Boolean indicating if strict-mode flag should be applied to build
+    default: false
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ inputs.python-version }}
+        cache: pip
+
+    - name: Install Python dependencies
+      run: pip install -r ${{ inputs.requirements-file }}
+
+    - name: Build MkDocs site
+      run: mkdocs build${{ inputs.strict && " -s" || "" }}
