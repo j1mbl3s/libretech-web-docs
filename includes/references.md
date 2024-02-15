@@ -8,5 +8,7 @@
 
 [GNU/Linux]: https://www.gnu.org/gnu/linux-and-gnu.html ""Linux and the GNU System""
 
+[Joule's law]: https://en.wikipedia.org/wiki/Joule_heating#Direct_current
+
 [Rufus]: https://rufus.ie/ "Windows ; bootable USB flashing tool"
 [dd]: https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html "GNU ; data dump, disk duplicator, ⚠️disk destroyer⚠️"
