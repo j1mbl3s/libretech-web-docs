@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: Build MkDocs site
-        uses: ./.github/actions/build.yaml
+        uses: ./.github/actions/mkdocs-build
         with:
           strict: true
   
