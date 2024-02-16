@@ -4,7 +4,10 @@
 
 A documentation site for [Libre Computer](https://libre.computer/)
 using [MkDocs](https://www.mkdocs.org/)
-and published to GitHub Pages.
+and published to GitHub Pages via Actions.
+
+You can browse the site at:
+https://j1mbl3s.github.io/libretech-web-docs/
 
 ## Development
 
