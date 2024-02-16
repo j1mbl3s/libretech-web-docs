@@ -86,10 +86,38 @@ nav:
     - index.md
 
     - Hardware:
-      - hardware/index.md
+      # - hardware/index.md
+      - Libre Computer Products:
+        # - hardware/boards/index.md
+        - Tritium<br/>ALL-H3-CC: https://libre.computer/products/all-h3-cc/ # hardware/boards/tritium-all-h3-cc.md
+        - La Frite<br/>AML-S805X-CC: https://libre.computer/products/aml-s805x-ac/ # hardware/boards/la-frite-aml-s805x-cc.md
+        - Le Potato<br/>AML-S905X-CC: https://libre.computer/products/aml-s905x-cc/ # hardware/boards/le-potato-aml-s905x-cc.md
+        - Sweet Potato<br/>AML-S905X-CC-V2: https://libre.computer/products/aml-s905x-cc-v2/ # hardware/boards/sweet-potato-aml-s905x-cc-v2.md
+        - Solitude<br/>AML-S905D3-CC: https://libre.computer/products/aml-s905d3-cc/ # hardware/boards/solitude-aml-s905d3-cc.md
+        - Alta<br/>AML-A311D-CC: https://libre.computer/products/aml-a311d-cc/ # hardware/boards/alta-aml-a311d-cc.md
+        - Renegade<br/>ROC-RK3328-CC: https://libre.computer/products/roc-rk3328-cc/ # hardware/boards/renegade-roc-rk3328-cc.md
+        - Renegade Elite<br/>ROC-RK3399-PC: https://libre.computer/products/roc-rk3399-pc/ # hardware/boards/renegade-elite-roc-rk3399-pc.md
 
     - Software:
-      - software/index.md
+      # - software/index.md
+      - Operating Systems:
+        # - software/os/index.md
+        - Debian: https://hub.libre.computer/t/debian-11-bullseye-for-libre-computer-boards/230 # software/os/debian.md
+        - Fedora: https://hub.libre.computer/t/fedora-for-libre-computer-boards/3225 # software/os/fedora.md
+        - Ubuntu: https://hub.libre.computer/t/ubuntu-22-04-1-jammy-lts-for-libre-computer-boards/20 # software/os/ubuntu.md
+        - OpenSUSE: https://hub.libre.computer/t/opensuse-for-libre-computer-boards/3226 # software/os/opensuse.md
+        - Raspbian: https://hub.libre.computer/t/raspbian-11-bullseye-for-libre-computer-boards/82 # software/os/raspbian.md
+        - Batocera: https://hub.libre.computer/t/batocera-linux-for-libre-computer-boards/272 # software/os/batocera.md
+        - Lakka: https://hub.libre.computer/t/lakka-for-libre-computer-boards/231 # software/os/lakka.md
+        - CoreELEC: https://hub.libre.computer/t/coreelec-for-libre-computer-amlogic-boards/234 # software/os/corelec.md
+        - LibreELEC: https://hub.libre.computer/t/libreelec-for-libre-computer-boards/233 # software/os/libreelec.md
+        - Android: https://hub.libre.computer/t/android-for-libre-computer-boards/232 # software/os/android.md
+        - Armbian: https://www.armbian.com/download/?tx_maker=libre-computer # software/os/armbian.md
+
+      - Tools:
+        # - software/tools/index.md
+        - libretech-flash-tool: https://github.com/libre-computer-project/libretech-flash-tool # software/tools/libretech-flash-tool.md
+        - libretech-wiring-tool: https://github.com/libre-computer-project/libretech-wiring-tool # software/tools/libretech-wiring-tool.md
 
     - User Guides:
       - guides/index.md
