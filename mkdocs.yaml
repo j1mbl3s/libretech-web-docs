@@ -77,7 +77,7 @@ extra:
   homepage: https://libre.computer/
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - assets/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
@@ -117,6 +117,7 @@ nav:
       - Tools:
         # - software/tools/index.md
         - libretech-flash-tool: https://github.com/libre-computer-project/libretech-flash-tool # software/tools/libretech-flash-tool.md
+        - libretech-slipstream: https://github.com/libre-computer-project/libretech-slipstream # software/tools/libretech-slipstream.md
         - libretech-wiring-tool: https://github.com/libre-computer-project/libretech-wiring-tool # software/tools/libretech-wiring-tool.md
 
     - User Guides:
