@@ -88,7 +88,7 @@ from a microSD card or eMMC module. (1)
                 If you were expecting a maximum power draw of 12W through the board:
 
                 $$
-                \frac{12W}{5V} = 2.2A
+                \frac{12W}{5V} = 2.4A
                 $$
 
 * an HDMI cable and monitor (5)
