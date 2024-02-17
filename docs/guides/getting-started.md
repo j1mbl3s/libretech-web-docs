@@ -26,7 +26,7 @@ from a microSD card or eMMC module. (1)
 
 * a microSD card (3) and an appropriate adapter for the PC
 
-    ??? tip
+    ??? note
 
         The typical use case for a microSD card is not as
         the filesystem of an entire operating system.
@@ -35,7 +35,7 @@ from a microSD card or eMMC module. (1)
 
 * _optional_: an eMMC module (4)
 
-    ??? tip
+    ??? note
     
         Flashing an eMMC module requires
         a board that has already been booted
@@ -52,6 +52,10 @@ from a microSD card or eMMC module. (1)
         * performance over microSD and eMMC
         
         * endurance with frequently written and overwritten files
+
+        Use a USB SSD with a separate power supply for
+        the best performance
+        and minimal power consumption through the board.
         
 * a micro USB power cable and an appropriate power supply
 
@@ -70,18 +74,28 @@ from a microSD card or eMMC module. (1)
         especially when attaching additional devices powered by the board
         (like USBs).
 
-        You can estimate the required [electric current]
-        with [Joule's law]:
+        ???+ info
 
-        $$
-        I = \frac{P}{V}
-        $$
+            You can estimate the required [electric current]
+            with [Joule's law]:
+
+            $$
+            I = \frac{P}{V}
+            $$
+
+            ???+ example
+            
+                If you were expecting a maximum power draw of 12W through the board:
+
+                $$
+                \frac{12W}{5V} = 2.2A
+                $$
 
 * an HDMI cable and monitor (5)
 
 * a USB keyboard (6)
 
-* _optional_: an ethernet cable or WiFi USB adapter (7)
+* _optional_: an ethernet cable or USB WiFi adapter (7)
 
     ??? tip
 
